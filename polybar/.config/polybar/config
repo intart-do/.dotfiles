@@ -45,7 +45,6 @@ foreground-alt = ${solarized-dark.base05}
 primary = ${solarized-dark.base0B}
 secondary = ${solarized-dark.base09}
 alert = ${solarized-dark.base08}
-digitalocean-blue = #0080ff
 
 [bar/main]
 monitor = ${env:MONITOR:DVI-I-1}
@@ -85,7 +84,7 @@ modules-center =
 
 tray-position = right
 tray-padding = 10
-;tray-background = ${colors.digitalocean-blue}
+;tray-background = ${colors.background}
 
 wm-restack = i3
 
