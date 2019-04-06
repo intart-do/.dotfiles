@@ -49,6 +49,7 @@ digitalocean-blue = #0080ff
 
 [bar/main]
 monitor = ${env:MONITOR:DVI-I-1}
+monitor-fallback = ${env:MONITOR:HDMI-0}
 width = 100%
 height = 26
 ;offset-x = 1%
