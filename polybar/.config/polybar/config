@@ -38,13 +38,13 @@ base0E = #6c71c4
 base0F = #d33682
 
 [colors]
-background = ${solarized-dark.base00}
+background = ${solarized-dark.base01}
 background-alt = ${solarized-dark.base03}
 foreground = ${solarized-dark.base07} 
 foreground-alt = ${solarized-dark.base05}
-primary = #ffb52a
-secondary = #e60053
-alert = #bd2c40
+primary = ${solarized-dark.base0B}
+secondary = ${solarized-dark.base09}
+alert = ${solarized-dark.base08}
 digitalocean-blue = #0080ff
 
 [bar/main]
