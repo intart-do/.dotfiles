@@ -72,9 +72,9 @@ module-margin-left = 1
 module-margin-right = 1
 
 font-0 = "Fantasque Sans Mono:style=Regular:pixelsize=11;2"
-font-1 = "Font Awesome 5 Brands:style=Regular:pixelsize=10;2"
-font-2 = "Font Awesome 5 Free:style=Regular:pixelsize=10;2"
-font-3 = "Font Awesome 5 Free:style=Solid:pixelsize=10;2"
+font-1 = "Font Awesome 5 Brands:style=Regular:pixelsize=11;2"
+font-2 = "Font Awesome 5 Free:style=Regular:pixelsize=11;2"
+font-3 = "Font Awesome 5 Free:style=Solid:pixelsize=11;2"
 ;http://materialdesignicons.com/
 font-4 = "Material Design Icons:style=Regular:pixelsize=14;4"
 
@@ -105,7 +105,7 @@ interval = 25
 mount-0 = /
 mount-1 = /mnt/data
 
-label-mounted = "  %percentage_used%%"
+label-mounted = "  %percentage_used%%   |"
 label-unmounted =  
 label-unmounted-foreground = ${colors.foreground-alt}
 
@@ -175,14 +175,14 @@ type = internal/cpu
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-label =  %percentage%%
+label =  %percentage%%   |
 
 [module/memory]
 type = internal/memory
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-label =  %percentage_used%%
+label = " %percentage_used%%   |"
 
 [module/date]
 type = internal/date
@@ -194,7 +194,7 @@ time = %H:%M
 format-prefix =
 format-prefix-foreground = ${colors.foreground-alt}
 
-label = "  %date%   %time%"
+label = "  %date%   |    %time%   |"
 
 [module/pulseaudio]
 type = internal/pulseaudio
@@ -235,7 +235,7 @@ format = <ramp> <label>
 format-warn = <ramp> <label-warn>
 
 format-prefix = " "
-label = %temperature-c%
+label = "%temperature-c%   |"
 label-warn = %temperature-c%
 label-warn-foreground = ${colors.secondary}
 
