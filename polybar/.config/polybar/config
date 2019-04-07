@@ -49,10 +49,10 @@ alert = ${solarized-dark.base08}
 [bar/main]
 monitor = ${env:MONITOR:DVI-I-1}
 monitor-fallback = ${env:MONITOR:HDMI-0}
-width = 100%
+width = 96%
 height = 30 
-;offset-x = 1%
-;offset-y = 1%
+offset-x = 2%
+offset-y = 2%
 ;radius = 4
 fixed-center = true
 
@@ -141,7 +141,7 @@ label-visible-underline = ${self.label-focused-underline}
 label-visible-padding = ${self.label-focused-padding}
 
 ; urgent = Workspace with urgency hint set
-label-urgent = %icon%
+label-urgent = %{T5}%icon%
 label-urgent-background = ${colors.alert}
 label-urgent-padding = 2
 
