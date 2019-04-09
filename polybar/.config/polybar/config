@@ -105,7 +105,7 @@ interval = 25
 mount-0 = /
 mount-1 = /mnt/data
 
-label-mounted = "  %percentage_used%%   |"
+label-mounted = " %percentage_used%%  "
 label-unmounted =  
 label-unmounted-foreground = ${colors.foreground-alt}
 
@@ -156,7 +156,6 @@ ws-icon-6 = 7;
 ws-icon-7 = 8;
 ws-icon-8 = 9;
 
-
 [module/mpd]
 type = internal/mpd
 format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
@@ -175,14 +174,14 @@ type = internal/cpu
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-label =  %percentage%%   |
+label = " %percentage%%  "
 
 [module/memory]
 type = internal/memory
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-label = " %percentage_used%%   |"
+label = " %percentage_used%%  "
 
 [module/date]
 type = internal/date
@@ -194,7 +193,7 @@ time = %H:%M
 format-prefix =
 format-prefix-foreground = ${colors.foreground-alt}
 
-label = "  %date%   |    %time%   |"
+label = " %date%     %time%  "
 
 [module/pulseaudio]
 type = internal/pulseaudio
@@ -203,10 +202,10 @@ sink = alsa_output.pci-0000_01_00.1.hdmi-stereo-extra2
 use-ui-max = true
 
 format-volume = <label-volume>
-label-volume = "  %percentage%%  "
+label-volume = " %percentage%%  "
 label-volume-foreground = ${root.foreground}
 
-label-muted = "      "
+label-muted = "     "
 label-muted-foreground = #666
 
 ;bar-volume-width = 10
@@ -235,7 +234,7 @@ format = <ramp> <label>
 format-warn = <ramp> <label-warn>
 
 format-prefix = " "
-label = "%temperature-c%   |"
+label = "%temperature-c%  "
 label-warn = %temperature-c%
 label-warn-foreground = ${colors.secondary}
 
