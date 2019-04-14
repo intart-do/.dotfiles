@@ -183,6 +183,7 @@ bindsym $mod+Shift+9 move container to workspace $ws9; workspace $ws9
 for_window [class="Spotify"] move to workspace $ws5
 for_window [class="Nextcloud"] move to workspace $ws9
 for_window [class="Gnome-boxes"] move to workspace $ws7
+for_window [class= "Thunderbird"] move to workspace $ws2
 assign [class="Feedreader"] move to workspace $ws2
 assign [class="Evolution"] $ws2
 assign [class="^Joplin$"] $ws6
@@ -287,6 +288,7 @@ exec_always --no-startup-id fix_xcursor
 exec --no-startup-id firefox
 exec --no-startup-id nextcloud
 exec --no-startup-id kdeconnect-indicator
+exec --no-startup-id thunderbird
 
 # Colors are gathered based on the documentation:
 # https://i3wm.org/docs/userguide.html#xresources
