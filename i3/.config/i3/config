@@ -288,11 +288,6 @@ exec --no-startup-id firefox
 exec --no-startup-id nextcloud
 exec --no-startup-id kdeconnect-indicator
 
-exec --no-startup-id "i3-msg 'workspace 2; append_layout ~/.config/i3/layouts/workspace-2.json'"
-exec --no-startup-id gnome-calendar
-exec --no-startup-id geary
-exec --no-startup-id gnome-todo
-
 # Colors are gathered based on the documentation:
 # https://i3wm.org/docs/userguide.html#xresources
 # Change the variable name at the place you want to match the color
