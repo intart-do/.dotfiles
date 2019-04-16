@@ -82,7 +82,7 @@ modules-left =
 modules-right = cpu memory temperature filesystem pulseaudio date
 modules-center = i3 
 
-tray-position = right
+tray-position = 
 tray-padding = 10
 ;tray-background = ${colors.background}
 
