@@ -52,16 +52,16 @@ shade2 = #353d00
 shade3 = #475200
 shade4 = #586600
 shade5 = #6a7a00
-shade6 = #7c8100
+shade6 = #7c8f00
 shade7 = #859900
 shade8 = #9fb800
-shade9 = #9fb800
-shade10 = #b1cc00
-shade11 = #c3e000
-shade12 = #d4f500
-shade13 = #deff0a
-shade14 = #e1ff1f
-shade15 = #e4ff33
+shade9 = #b1cc00
+shade10 = #c3e000
+shade11 = #d4f500
+shade12 = #deff0a
+shade13 = #e1ff1f
+shade14 = #e4ff33
+shade15 = #e7ff47
 
 [bar/main]
 monitor = ${env:MONITOR:DVI-I-1}
@@ -228,25 +228,14 @@ type = internal/temperature
 thermal-zone = 2
 warn-temperature = 60
 
-format = <ramp> <label>
-format-padding = 2
-format-warn = <ramp> <label-warn>
-format-warn-padding = 2
-
-label = %temperature-c%
+label =  %temperature-c%
 label-foreground = ${colors.foreground}
 label-background = ${colors.shade9}
 label-padding = 2
 label-warn = %temperature-c%
 label-warn-foreground = ${colors.secondary}
 label-warn-background = ${colors.shade9}
-
-ramp-0 = 
-ramp-1 = 
-ramp-2 = 
-ramp-foreground = ${colors.foreground}
-ramp-background = ${colors.shade9}
-ramp-padding = 2
+label-warn-padding = 2
 
 [module/ewmh]
 type = internal/xworkspaces
