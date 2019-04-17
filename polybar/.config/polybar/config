@@ -160,25 +160,8 @@ label-volume-foreground = ${colors.foreground}
 label-volume-background = ${colors.shade4}
 
 label-muted = ""
-label-muted-foreground = #666
+label-muted-foreground = ${colors.foreground-alt}
 label-muted-background = ${colors.shade4}
-
-;bar-volume-width = 10
-;;bar-volume-foreground-0 = #55aa55
-;;bar-volume-foreground-1 = #55aa55
-;;bar-volume-foreground-2 = #55aa55
-;;bar-volume-foreground-3 = #55aa55
-;;bar-volume-foreground-4 = #55aa55
-;;bar-volume-foreground-5 = #f5a70a
-;;bar-volume-foreground-6 = #ff5555
-;;bar-volume-gradient = false
-;;bar-volume-indicator = |
-;;bar-volume-indicator-font = 2
-;;bar-volume-fill = ─
-;;bar-volume-fill-font = 2
-;;bar-volume-empty = ─
-;;bar-volume-empty-font = 2
-;;bar-volume-empty-foreground = ${colors.foreground-alt}
 
 [module/data-hd]
 type = internal/fs
@@ -190,7 +173,8 @@ label-mounted = " %percentage_used%%"
 label-mounted-background = ${colors.shade5}
 label-mounted-padding = 2
 label-unmounted =  
-label-unmounted-foreground = ${colors.foreground}
+label-unmounted-foreground = ${colors.foreground-alt}
+label-unmounted-background = ${colors.shade5}
 label-unmounted-padding = 2
 
 [module/root-hd]
@@ -203,7 +187,8 @@ label-mounted = " %percentage_used%%"
 label-mounted-background = ${colors.shade6}
 label-mounted-padding = 2
 label-unmounted =  
-label-unmounted-foreground = ${colors.foreground}
+label-unmounted-foreground = ${colors.foreground-alt}
+label-unmounted-background = ${colors.shade6}
 label-unmounted-padding = 2
 
 [module/memory]
