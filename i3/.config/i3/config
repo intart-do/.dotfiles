@@ -33,7 +33,7 @@ bindsym $mod+Return exec terminator
 bindsym $mod+Shift+q kill
 
 # start program launcher
-bindsym $mod+d exec rofi -show run 
+bindsym $mod+d exec rofi -show run -show-icons 
 
 # Start Applications
 bindsym $mod+F1 exec nautilus
