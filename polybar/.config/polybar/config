@@ -96,9 +96,9 @@ modules-left =
 modules-right = temperature cpu memory root-hd data-hd pulseaudio date time
 modules-center = ewmh 
 
-tray-position = none
+tray-position = right
 tray-padding = 10
-;tray-background = ${colors.background}
+tray-background = ${colors.shade1}
 
 wm-restack = i3
 
