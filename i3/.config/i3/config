@@ -281,13 +281,13 @@ mode "resize" {
 # Autostart applications
 exec --no-startup-id /usr/libexec/polkit-gnome-authentication-agent-1
 exec --no-startup-id compton -b -C
-exec --no-startup-id nm-applet
+exec --no-startup-id "sh -c 'sleep 5; exec nm-applet'"
 exec --no-startup-id xautolock -time 10 -locker blurlock
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 exec --no-startup-id firefox
 exec --no-startup-id "sh -c 'sleep 5; exec nextcloud'"
-exec --no-startup-id kdeconnect-indicator
+exec --no-startup-id "sh -c 'sleep 5; exec kdeconnect-indicator'"
 exec --no-startup-id thunderbird
 
 # Colors are gathered based on the documentation:
