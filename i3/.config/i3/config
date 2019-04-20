@@ -404,4 +404,4 @@ mode "$mode_gaps_outer" {
         bindsym Escape mode "default"
 }
 
-exec --no-startup-id feh --bg-scale /home/intart/Pictures/wallpaper.jpg
+exec --no-startup-id feh --bg-scale /usr/share/backgrounds/warty-final-ubuntu.png
