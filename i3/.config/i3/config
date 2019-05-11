@@ -207,14 +207,9 @@ for_window [class="keepassxc"] floating enable
 for_window [title="Auto-Type - KeePassXC"] floating enable border pixel 2
 
 # fix gtk3 programs border highlight
-for_window [class="^Nautilus$"] border pixel 2
-for_window [class="^Gnome-boxes$"] border pixel 2
-for_window [class="^Gnome-calculator$"] border pixel 2
-for_window [class="^Gnome-calendar$"] border pixel 2
-for_window [class="^Gnome-contacts$"] border pixel 2
-for_window [class="^Evince$"] border pixel 2
-for_window [class="^Geary$"] border pixel 2
-for_window [class="^Terminator$"] border pixel 2
+for_window [class="^Nautilus$"] border pixel 4
+for_window [class="^Gnome-calculator$"] border pixel 4
+for_window [class="^Evince$"] border pixel 4
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
