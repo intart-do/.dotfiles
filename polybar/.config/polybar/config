@@ -92,8 +92,8 @@ font-3 = "Font Awesome 5 Free:style=Solid:pixelsize=11;2"
 ;http://materialdesignicons.com/
 font-4 = "Material Design Icons:style=Regular:pixelsize=13;4"
 
-modules-left = temperature cpu memory root-hd data-hd
-modules-right = pulseaudio date time
+modules-left = 
+modules-right = temperature cpu memory root-hd data-hd pulseaudio date time
 modules-center = ewmh 
 
 tray-position = right
