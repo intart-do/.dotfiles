@@ -281,6 +281,7 @@ exec --no-startup-id firefox
 exec --no-startup-id "sh -c 'sleep 5; exec seafile-applet'"
 exec --no-startup-id "sh -c 'sleep 5; exec kdeconnect-indicator'"
 exec --no-startup-id evolution
+exec --no-startup-id /opt/tutanota/tutanota-desktop-linux.AppImage
 
 # Colors are gathered based on the documentation:
 # https://i3wm.org/docs/userguide.html#xresources
