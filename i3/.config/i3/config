@@ -208,6 +208,7 @@ for_window [class="keepassxc"] floating enable
 for_window [title="Auto-Type - KeePassXC"] floating enable border pixel 2
 for_window [class= "Seafile Client"] floating enable
 for_window [class="^Org.gnome.Nautilus$"] floating enable
+for_window [class="^Signal$"] floating enable
 
 # fix gtk3 programs border highlight
 for_window [class="^Nautilus$"] border pixel 2
@@ -399,4 +400,4 @@ mode "$mode_gaps_outer" {
         bindsym Escape mode "default"
 }
 
-exec --no-startup-id feh --bg-scale /usr/share/backgrounds/warty-final-ubuntu.png
+exec --no-startup-id feh --bg-scale /home/intart/Pictures/wallpaper.jpg
