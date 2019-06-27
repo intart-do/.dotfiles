@@ -183,8 +183,8 @@ bindsym $mod+Shift+9 move container to workspace $ws9; workspace $ws9
 # Open applications on specific workspaces
 for_window [class="Spotify"] move to workspace $ws5
 for_window [class="Nextcloud"] move to workspace $ws9
-for_window [class="tutanota-desktop"] move to workspace $ws2
-assign [class="Evolution"] $ws2
+for_window [class="tutanota-desktop"] move to workspace $ws10
+assign [class="Evolution"] $ws10
 assign [title="KiCad"] $ws9
 assign [title="Eeschema"] $ws3
 assign [title="Pcbnew"] $ws3
