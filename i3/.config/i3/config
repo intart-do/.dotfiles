@@ -38,16 +38,16 @@ bindsym $mod+d exec rofi -show run -show-icons
 # Start Applications
 bindsym $mod+F1 exec nautilus
 bindsym $mod+F2 exec firefox
-bindsym $mod+F3 exec brave-browser
+bindsym $mod+F3 exec evince 
 bindsym $mod+F4 exec keepassxc
-bindsym $mod+F5 exec libreoffice --calc 
-bindsym $mod+F6 exec kicad %f 
-bindsym $mod+F7 exec spotify
-bindsym $mod+F8 exec mplab_ide
+bindsym $mod+F5 exec kicad %f
+bindsym $mod+F6 exec mplab_ide 
+bindsym $mod+F7 exec vscodium
+#bindsym $mod+F8 exec 
 #bindsym $mod+F9 exec 
 #bindsym $mod+F10 exec
-#bindsym $mod+F11 exec 
-#bindsym $mod+F12 exec 
+bindsym $mod+F11 exec spotify
+bindsym $mod+F12 exec libreoffice --calc
 
 bindsym Print exec --no-startup-id i3-scrot
 bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
