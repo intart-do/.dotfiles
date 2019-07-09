@@ -185,13 +185,6 @@ for_window [class="Spotify"] move to workspace $ws5
 for_window [class="Nextcloud"] move to workspace $ws9
 for_window [class="tutanota-desktop"] move to workspace $ws10
 assign [class="Evolution"] $ws10
-assign [title="KiCad"] $ws9
-assign [title="Eeschema"] $ws3
-assign [title="Pcbnew"] $ws3
-assign [title="Footprint Editor"] $ws3
-assign [title="GerbView"] $ws3
-assign [title="Symbol Library Editor"] $ws3
-
 
 # Open specific applications in floating mode
 for_window [title="File Transfer*"] floating enable
