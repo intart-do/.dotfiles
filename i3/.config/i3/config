@@ -33,7 +33,7 @@ bindsym $mod+Return exec xfce4-terminal
 bindsym $mod+Shift+q kill
 
 # start program launcher
-bindsym $mod+d exec rofi -show run -show-icons 
+bindsym $mod+d exec rofi -show drun -show-icons 
 
 # Start Applications
 bindsym $mod+F1 exec nautilus
