@@ -64,8 +64,8 @@ shade14 = #e4ff33
 shade15 = #e7ff47
 
 [bar/main]
-monitor = ${env:MONITOR:DVI-I-1}
-monitor-fallback = ${env:MONITOR:DVI-I-2}
+monitor = ${env:MONITOR:HDMI-0}
+monitor-fallback = ${env:MONITOR:DVI-I-1}
 width = 100%
 height = 25 
 ;offset-x = 1%
