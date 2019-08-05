@@ -38,7 +38,7 @@ base0E = #6c71c4
 base0F = #d33682
 
 [colors]
-background = ${solarized-dark.base01}
+background = ${solarized-dark.base00}
 background-alt = ${solarized-dark.base03}
 foreground = ${solarized-dark.base07} 
 foreground-alt = ${solarized-dark.base05}
