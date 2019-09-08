@@ -216,22 +216,6 @@ label = " %date%"
 ;label-background = ${colors.shade3}
 label-padding = 2
 
-[module/pulseaudio]
-type = internal/pulseaudio
-
-sink = alsa_output.pci-0000_01_00.1.hdmi-stereo-extra2
-use-ui-max = true
-
-format-volume = <label-volume>
-label-volume = " %percentage%%"
-label-volume-padding = 2
-label-volume-foreground = ${colors.foreground}
-;label-volume-background = ${colors.shade4}
-
-label-muted = ""
-label-muted-foreground = ${colors.foreground-alt}
-;label-muted-background = ${colors.shade4}
-
 [module/data-hd]
 type = internal/fs
 interval = 25
