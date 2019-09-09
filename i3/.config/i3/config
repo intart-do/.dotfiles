@@ -204,6 +204,7 @@ for_window [title="Auto-Type - KeePassXC"] floating enable border pixel 2
 for_window [class= "Seafile Client"] floating enable
 for_window [class="^Org.gnome.Nautilus$"] floating enable
 for_window [class="^Signal$"] floating enable
+for_window [class="^Xfce4-terminal"] floating enable
 
 # fix gtk3 programs border highlight
 for_window [class="^Nautilus$"] border pixel 2
