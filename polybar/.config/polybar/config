@@ -19,6 +19,11 @@
 ;Colors base00 to base07 are typically variations of a shade and run from darkest to lightest
 ;Colors base08 to base0F are typically individual colors
 
+[custom_colors]
+blue = #268BD2
+green = #859900
+red = #DC322F
+
 [solarized-dark]
 base00 = #002b36
 base01 = #80073642
@@ -156,8 +161,8 @@ label-mode-background = #e60053
 ; Default: %icon%  %name%
 label-focused = %{T5}%icon%
 label-focused-foreground = #ffffff
-label-focused-background = #3f3f3f
-label-focused-underline = #fba922
+label-focused-background = ${custom_colors.green}
+;label-focused-underline = #fba922
 label-focused-padding = 2
 
 ; Available tokens:
@@ -176,7 +181,7 @@ label-unfocused-padding = 2
 ;   %output%
 ; Default: %icon%  %name%
 label-visible = %{T5}%icon%
-label-visible-underline = #555555
+;label-visible-underline = #555555
 label-visible-padding = 2
 
 ; Available tokens:
@@ -187,7 +192,7 @@ label-visible-padding = 2
 ; Default: %icon%  %name%
 label-urgent = %{T5}%icon%
 label-urgent-foreground = #000000
-label-urgent-background = #bd2c40
+label-urgent-background = ${custom_colors.red}
 label-urgent-padding = 2
 
 [module/time]
