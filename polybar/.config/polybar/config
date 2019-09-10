@@ -191,7 +191,7 @@ label-visible-padding = 2
 ;   %output%
 ; Default: %icon%  %name%
 label-urgent = %{T5}%icon%
-label-urgent-foreground = #000000
+label-urgent-foreground = #ffffff
 label-urgent-background = ${custom_colors.red}
 label-urgent-padding = 2
 
