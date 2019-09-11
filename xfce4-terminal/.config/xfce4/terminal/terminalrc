@@ -1,5 +1,5 @@
 [Configuration]
-FontName=Fira Mono Medium 13
+FontName=FuraMono Nerd Font Medium 13
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
 MiscBellUrgent=FALSE
@@ -33,4 +33,6 @@ ColorBoldIsBright=FALSE
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
 BackgroundDarkness=0.850000
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
+MiscSearchDialogOpacity=100
+MiscShowUnsafePasteDialog=TRUE
 
