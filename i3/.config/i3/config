@@ -46,7 +46,7 @@ bindsym $mod+F7 exec libreoffice --calc
 #bindsym $mod+F8 exec 
 #bindsym $mod+F9 exec 
 #bindsym $mod+F10 exec
-#bindsym $mod+F11 exec 
+bindsym $mod+F11 exec /opt/FreeTube/freetube %U 
 bindsym $mod+F12 exec spotify
 
 bindsym Print exec --no-startup-id i3-scrot
