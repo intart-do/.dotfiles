@@ -98,8 +98,8 @@ font-3 = "Font Awesome 5 Free:style=Solid:pixelsize=11;2"
 font-4 = "Material Design Icons:style=Regular:pixelsize=13;4"
 
 modules-left = i3  
-modules-right = temperature cpu memory root-hd data-hd pulseaudio date time
-modules-center = 
+modules-center = temperature cpu memory root-hd data-hd pulseaudio date time
+modules-right = 
 
 tray-position = right
 tray-padding = 10
