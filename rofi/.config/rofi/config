@@ -1,5 +1,6 @@
 ! Rofi config file
 rofi.lines: 10
+rofi.width: 15
 rofi.font: Roboto Medium 13
 rofi.show-icons: true
 rofi.theme: ~/.local/share/rofi/themes/base16-solarized-dark.rasi
