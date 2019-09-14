@@ -206,7 +206,7 @@ format-prefix-foreground = ${colors.foreground}
 
 label = " %time%"
 ;label-background = ${colors.shade2}
-label-padding = 2
+label-padding = 3
 
 [module/date]
 type = internal/date
@@ -219,7 +219,7 @@ format-prefix-foreground = ${colors.foreground}
 
 label = " %date%"
 ;label-background = ${colors.shade3}
-label-padding = 2
+label-padding = 3
 
 [module/data-hd]
 type = internal/fs
@@ -229,11 +229,11 @@ mount-0 = /mnt/data
 
 label-mounted = " %percentage_used%%"
 ;label-mounted-background = ${colors.shade5}
-label-mounted-padding = 2
+label-mounted-padding = 3
 label-unmounted =  
 label-unmounted-foreground = ${colors.foreground-alt}
 ;label-unmounted-background = ${colors.shade5}
-label-unmounted-padding = 2
+label-unmounted-padding = 3
 
 [module/root-hd]
 type = internal/fs
@@ -243,11 +243,11 @@ mount-0 = /
 
 label-mounted = " %percentage_used%%"
 ;label-mounted-background = ${colors.shade6}
-label-mounted-padding = 2
+label-mounted-padding = 3
 label-unmounted =  
 label-unmounted-foreground = ${colors.foreground-alt}
 ;label-unmounted-background = ${colors.shade6}
-label-unmounted-padding = 2
+label-unmounted-padding = 3
 
 [module/memory]
 type = internal/memory
@@ -255,7 +255,7 @@ interval = 2
 label = " %percentage_used%%"
 label-foreground = ${colors.foreground}
 ;label-background = ${colors.shade7}
-label-padding = 2
+label-padding = 3
 
 [module/cpu]
 type = internal/cpu
@@ -264,7 +264,7 @@ interval = 2
 format-prefix-foreground = ${colors.foreground}
 ;label-background = ${colors.shade8}
 label = " %percentage%%"
-label-padding = 2
+label-padding = 3
 
 [module/temperature]
 type = internal/temperature
@@ -274,11 +274,11 @@ warn-temperature = 60
 label =  %temperature-c%
 label-foreground = ${colors.foreground}
 ;label-background = ${colors.shade9}
-label-padding = 2
+label-padding = 3
 label-warn =  %temperature-c%
 label-warn-foreground = ${colors.secondary}
 ;label-warn-background = ${colors.shade9}
-label-warn-padding = 2
+label-warn-padding = 3
 
 [module/ewmh]
 type = internal/xworkspaces
