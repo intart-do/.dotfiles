@@ -42,7 +42,7 @@ bindsym $mod+F3 exec keepassxc
 bindsym $mod+F4 exec codium
 bindsym $mod+F5 exec kicad %f
 bindsym $mod+F6 exec mplab_ide 
-#bindsym $mod+F7 exec libreoffice --calc 
+bindsym $mod+F7 exec gnome-calculator 
 #bindsym $mod+F8 exec 
 #bindsym $mod+F9 exec 
 #bindsym $mod+F10 exec
